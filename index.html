@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitoring System</title>
+    <link id="stylesheet" rel="stylesheet" href="styles.css"> <!-- Default stylesheet -->
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Health Monitoring System</h1>
+        
+        <h2>Health Readings</h2>
+        
+        <table id="healthTable">
+            <thead>
+                <tr>
+                    <th>Reading #</th>
+                    <th>Heart Rate</th>
+                    <th>SpO2</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="healthTableBody">
+            </tbody>
+        </table>
+
+        <button onclick="toggleStyle()">Toggle Style</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
